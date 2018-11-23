@@ -1,6 +1,9 @@
 require 'capybara/cucumber'
 require 'selenium-webdriver'
 require 'site_prism'
+require_relative 'Page_helper.rb'
+
+World(PageObjects)
 
 Capybara.configure do |config|
     #selenium  -- firefox
