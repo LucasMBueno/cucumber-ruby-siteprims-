@@ -1,0 +1,11 @@
+---
+default: --profile progress -p homolog -p chrome_headless -t @frame -p html
+pretty: --format pretty
+progress: --format progress
+homolog: ambiente=homolog
+producao: ambiente=producao
+chrome: browser=chrome
+firefox: browser=firefox
+chrome_headless: browser=chrome_headless
+firefox_headless: browser=firefox_headless
+html: --format html --out=reports/relatorio.html

@@ -1,0 +1,3 @@
+[1123/150813.587:ERROR:process_info.cc(359)] UncheckedAllocate
+[1123/150910.031:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[1123/150910.037:ERROR:exception_snapshot_win.cc(88)] thread ID 8700 not found in process
